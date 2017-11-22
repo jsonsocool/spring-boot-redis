@@ -22,7 +22,7 @@ public class RedisServiceTest {
         user.setAge(20);
         user.setName("hello");
         User temp = service.write(user);
-        Assert.notNull(null, "redis读写异常");
+        Assert.notNull(temp, "redis读写异常");
     }
 
 }
